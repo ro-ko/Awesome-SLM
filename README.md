@@ -52,14 +52,11 @@ If you're interested in the field of SLM, you may find the above list of milesto
 
 ## Open SLM
 - Meta
-  - [Llama 3-8|70B](https://llama.meta.com/llama3/)
   - [Llama 2-7|13|70B](https://llama.meta.com/llama2/)
   - [Llama 1-7|13|33|65B](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/)
   - [OPT-1.3|6.7|13|30|66B](https://arxiv.org/abs/2205.01068)
 - Mistral AI
   - [Mistral-7B](https://mistral.ai/news/announcing-mistral-7b/)
-  - [Mixtral-8x7B](https://mistral.ai/news/mixtral-of-experts/)
-  - [Mixtral-8x22B](https://mistral.ai/news/mixtral-8x22b/)
 - Google
   - [Gemma-2|7B](https://blog.google/technology/developers/gemma-open-models/)
   - [RecurrentGemma-2B](https://github.com/google-deepmind/recurrentgemma)
@@ -74,15 +71,11 @@ If you're interested in the field of SLM, you may find the above list of milesto
   - [OLMo-7B](https://huggingface.co/collections/allenai/olmo-suite-65aeaae8fe5b6b2122b46778)
 - xAI
   - [Grok-1-314B-MoE](https://x.ai/blog/grok-os)
-- Cohere
-  - [Command R-35B](https://huggingface.co/CohereForAI/c4ai-command-r-v01)
 - DeepSeek
   - [DeepSeek-Math-7B](https://huggingface.co/collections/deepseek-ai/deepseek-math-65f2962739da11599e441681)
   - [DeepSeek-Coder-1.3|6.7|7|33B](https://huggingface.co/collections/deepseek-ai/deepseek-coder-65f295d7d8a0a29fe39b4ec4)
   - [DeepSeek-VL-1.3|7B](https://huggingface.co/collections/deepseek-ai/deepseek-vl-65f295948133d9cf92b706d3)
   - [DeepSeek-MoE-16B](https://huggingface.co/collections/deepseek-ai/deepseek-moe-65f29679f5cf26fe063686bf)
-  - [DeepSeek-v2-236B-MoE](https://arxiv.org/abs/2405.04434)
-  - [DeepSeek-Coder-v2-16|236B-MOE](https://github.com/deepseek-ai/DeepSeek-Coder-V2)
 - Alibaba
   - [Qwen-1.8|7|14|72B](https://huggingface.co/collections/Qwen/qwen-65c0e50c3f1ab89cb8704144)
   - [Qwen1.5-1.8|4|7|14|32|72|110B](https://huggingface.co/collections/Qwen/qwen15-65c0a2f577b1ecb76d786524)
@@ -96,8 +89,6 @@ If you're interested in the field of SLM, you may find the above list of milesto
 - Baichuan
   - [Baichuan-7|13B](https://huggingface.co/baichuan-inc)
   - [Baichuan2-7|13B](https://huggingface.co/baichuan-inc)
-- Nvidia
-  - [Nemotron-4-340B](https://huggingface.co/nvidia/Nemotron-4-340B-Instruct)
 - BLOOM
   - [BLOOMZ&mT0](https://huggingface.co/bigscience/bloomz)
 - Zhipu AI
