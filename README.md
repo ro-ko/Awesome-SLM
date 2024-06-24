@@ -3,7 +3,7 @@ Awesome-SLM: a curated list of Small Language Model
 
 ![](resources/image1.png)
 
-🔥 Small Language Models(SLM) Small language models are streamlined versions of large language models designed to retain much of the original capabilities while being more efficient and manageable. Here is a curated list of papers about small language models. 
+🔥 Small Language Models(SLM) are streamlined versions of large language models designed to retain much of the original capabilities while being more efficient and manageable. Here is a curated list of papers about small language models. 
 
 
 ## Table of Content
@@ -11,10 +11,10 @@ Awesome-SLM: a curated list of Small Language Model
 - [Awesome-SLM ](#awesome-slm-)
   - [Milestone Papers](#milestone-papers)
   - [Other Papers](#other-papers)
-  - [SLM Leaderboard](#llm-leaderboard)
-  - [Open SLM](#open-llm)
-  - [SLM Data](#llm-data)
-  - [SLM Evaluation](#llm-evaluation)
+  - [SLM Leaderboard](#slm-leaderboard)
+  - [Open SLM](#open-slm)
+  - [SLM Data](#slm-data)
+  - [SLM Evaluation](#slm-evaluation)
   - [Miscellaneous](#miscellaneous)
 
 ## Milestone Papers
@@ -30,18 +30,32 @@ Awesome-SLM: a curated list of Small Language Model
 | 2021-10 |         T0         |      HuggingFace et al.      | [Multitask Prompted Training Enables Zero-Shot Task Generalization](https://arxiv.org/abs/2110.08207)                                                                                        |    ICLR <br>![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F17dd3555fd1ccf1141cf984347fa1b3fd6b009ca%3Ffields%3DcitationCount&query=%24.citationCount&label=citation)|
 | 2022-01 |        LaMDA        |      Google      | [LaMDA: Language Models for Dialog Applications](https://arxiv.org/pdf/2201.08239.pdf)                                                                                                 |![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2Fb3848d32f7294ec708627897833c4097eb4d8778%3Ffields%3DcitationCount&query=%24.citationCount&label=citation)|
 | 2022-06 |  Emergent Abilities  |      Google      | [Emergent Abilities of Large Language Models](https://openreview.net/pdf?id=yzkSU5zdwD)                                                                                                |    TMLR<br>![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2Fdac3a172b504f4e33c029655e9befb3386e5f63a%3Ffields%3DcitationCount&query=%24.citationCount&label=citation)|
-| 2023-02 | LLaMA|Meta|[LLaMA: Open and Efficient Foundation Language Models](https://research.facebook.com/publications/llama-open-and-efficient-foundation-language-models/)|![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F57e849d0de13ed5f91d086936296721d4ff75a75%3Ffields%3DcitationCount&query=%24.citationCount&label=citation)|
+| 2023-02 | LLaMA | Meta |[LLaMA: Open and Efficient Foundation Language Models](https://research.facebook.com/publications/llama-open-and-efficient-foundation-language-models/)|![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F57e849d0de13ed5f91d086936296721d4ff75a75%3Ffields%3DcitationCount&query=%24.citationCount&label=citation)|
 | 2023-07 | LLaMA 2 | Meta | [Llama 2: Open Foundation and Fine-Tuned Chat Models](https://arxiv.org/pdf/2307.09288.pdf) |![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F104b0bb1da562d53cbda87aec79ef6a2827d191a%3Ffields%3DcitationCount&query=%24.citationCount&label=citation)|
 |2023-10| Mistral 7B| Mistral |[Mistral 7B](https://arxiv.org/pdf/2310.06825.pdf)|<br>![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2Fdb633c6b1c286c0386f0078d8a2e6224e03a6227%3Ffields%3DcitationCount&query=%24.citationCount&label=citation)|
+|2024-01| TinyLlama 1.1B | StatNLP Group |[TinyLlama: An Open-Source Small Language Model](https://arxiv.org/abs/2401.02385.pdf)|<br>![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F560c6f24c335c2dd27be0cfa50dbdbb50a9e4bfd%3Ffields%3DcitationCount&query=%24.citationCount&label=citation)|
+|2024-01| LLaVA-Phi | Midea Group |[LLaVA-Phi: Efficient Multi-Modal Assistant with Small Language Model](https://arxiv.org/pdf/2401.02330.pdf)|<br>![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2Fece33ee67d74c29cd2a83c505e5bf0b818f9c2a1%3Ffields%3DcitationCount&query=%24.citationCount&label=citation)|
+|2024-01| H2O-Danube 1.8B | H2O.ai |[H2O-Danube-1.8B Technical Report](https://arxiv.org/pdf/2401.16818)|<br>![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F139f3e52d1b90992d6908497ed8d6535bad258a2%3Ffields%3DcitationCount&query=%24.citationCount&label=citation)|
+|2024-01| TeleChat | chinatelecom |[TeleChat Technical Report](https://arxiv.org/pdf/2401.03804)|<br>![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F400e25e16276404097889e30b1d53e227ad30b83%3Ffields%3DcitationCount&query=%24.citationCount&label=citation)|
+|2024-02| Nemotron-4 15B | NVIDIA |[Nemotron-4 15B Technical Report](https://arxiv.org/pdf/2402.16819)|<br>![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2Fb54c3599a17db5a71349877a8567400117efbade%3Ffields%3DcitationCount&query=%24.citationCount&label=citation)|
+|2024-03| Yi | HuggingFace et al. |[Yi: Open Foundation Models by 01.AI](https://arxiv.org/pdf/2403.04652)|<br>![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2Fc0b454e0a6aa51ff3ba56778787d0c43932ef6ba%3Ffields%3DcitationCount&query=%24.citationCount&label=citation)|
+|2024-03| Gemma | Google DeepMind |[Gemma: Open Models Based on Gemini Research and Technology](https://arxiv.org/pdf/2403.08295)|<br>![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2Fb842b83a7ff5dff8e3b83915d8c15423b6085728%3Ffields%3DcitationCount&query=%24.citationCount&label=citation)|
+|2024-03| Jamba | AI21labs |[Jamba:A Hybrid Transformer-Mamba Language Model](https://arxiv.org/pdf/2403.19887)|<br>![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2Fcbaf689fd9ea9bc939510019d90535d6249b3367%3Ffields%3DcitationCount&query=%24.citationCount&label=citation)|
+|2024-04|  CT-LLM 2B | Multimodal Art Projection Research Community |[Chinese Tiny LLM: Pretraining a Chinese-Centric Large Language Model](https://arxiv.org/pdf/2404.04167)|<br>![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F3e9141595ab2820be0b461c9ca61ed86aa9a5b15%3Ffields%3DcitationCount&query=%24.citationCount&label=citation)|
+|2024-04|  RHO-1 | RHO-1: Not All Tokens Are What You Need |[RHO-1: Not All Tokens Are What You Need](https://arxiv.org/pdf/2404.07965)|<br>![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2Fcafe794035266eaef5d53e5d37aa486c71db9703%3Ffields%3DcitationCount&query=%24.citationCount&label=citation)|
+|2024-05| Zamba 7B | Zyphra |[Zamba: A Compact 7B SSM Hybrid Model](https://arxiv.org/pdf/2405.16712)|<br>![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F3dd6bc488283f1e4cc967d98a6a6c3d7f1a6cf76%3Ffields%3DcitationCount&query=%24.citationCount&label=citation)|
+|2024-05| ChuXin 1.6B | HuggingFace et al. |[ChuXin: 1.6B Technical Report](https://arxiv.org/pdf/2405.04828)|<br>![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F2a9c93165f805767bf5beafb985b8320f6cfdb15%3Ffields%3DcitationCount&query=%24.citationCount&label=citation)|
+|2024-05| OpenBA-V2 3.4B | Soochow University |[OpenBA-V2: Reaching 77.3% High Compression Ratio with Fast Multi-Stage Pruning](https://arxiv.org/pdf/2405.05957)|<br>![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F59768c67974ee3d75b427ee5d1af2095e49fc1ea%3Ffields%3DcitationCount&query=%24.citationCount&label=citation)|
+|2024-06| Xmodel-LM 1.1B | XiaoduoAI |[Xmodel-LM Technical Report](https://arxiv.org/pdf/2406.02856)|<br>![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2Ff4b9ccba1813143347056a1cb0e37e946a7d19b2%3Ffields%3DcitationCount&query=%24.citationCount&label=citation)|
+
 
 
 
 ## Other Papers
 If you're interested in the field of SLM, you may find the above list of milestone papers helpful to explore its history and state-of-the-art. However, each direction of SLM offers a unique set of insights and contributions, which are essential to understanding the field as a whole. For a detailed list of papers in various subfields, please refer to the following link:
 
-- [LLMDatahub](https://github.com/Zjh-819/LLMDataHub) - a curated collection of datasets specifically designed for chatbot training, including links, size, language, usage, and a brief description of each dataset
-
-
+|2024-02| Ensemble SLMs | Nanyang Technological University |[Purifying Large Language Models by Ensembling a Small Language Model](https://arxiv.org/pdf/2402.14845)|<br>![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F8287fbf2c520f7604aae19a590ea9494d356aae7%3Ffields%3DcitationCount&query=%24.citationCount&label=citation)|
+|2024-01| Vary-toy 1.8B | MEGVII Technology |[Small Language Model Meets with Reinforced Vision Vocabulary](https://arxiv.org/pdf/2401.12503.pdf)|<br>![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F41f12456780aecd204a210ce04b1a92d022b8c4c%3Ffields%3DcitationCount&query=%24.citationCount&label=citation)|
 
 ## SLM Leaderboard
 - [Chatbot Arena Leaderboard](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard) - a benchmark platform for large language models (LLMs) that features anonymous, randomized battles in a crowdsourced manner.
@@ -119,7 +133,7 @@ If you're interested in the field of SLM, you may find the above list of milesto
   - [InternVL-2|6|14|26](https://huggingface.co/collections/OpenGVLab/internvl-65b92d6be81c86166ca0dde4)
 
 ## SLM Data
-- [LLMDataHub](https://github.com/Zjh-819/LLMDataHub)
+- [LLMDatahub](https://github.com/Zjh-819/LLMDataHub) - a curated collection of datasets specifically designed for chatbot training, including links, size, language, usage, and a brief description of each dataset
 
 ## SLM Evaluation:
 - [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) - A framework for few-shot evaluation of language models.
@@ -132,7 +146,7 @@ If you're interested in the field of SLM, you may find the above list of milesto
 - [Ragas](https://github.com/explodinggradients/ragas) - a framework that helps you evaluate your Retrieval Augmented Generation (RAG) pipelines.
 
 ## Miscellaneous
-This repo contains awesome LLM paper list and frameworks for LLM training, tools to deploy LLM, courses and tutorials about LLM and all publicly available LLM checkpoints and APIs. Since SLM shares many of the same issues as LLM, I recommend that you also look at content related to LLM.
+This repo contains awesome LLM paper list and frameworks for LLM training, tools to deploy LLM, courses and tutorials about LLM and all publicly available LLM checkpoints and APIs. Since SLM shares many of the same issues as LLM, I recommend that you also look at the contents related to LLM.
 - [Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM)
 
 ## Contributing
@@ -141,7 +155,6 @@ This is an active repository and your contributions are always welcome!
 
 I will keep some pull requests open if I'm not sure if they are awesome for LLM, you could vote for them by adding 👍 to them.
 
-The template of this repo is based on the [Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM) from @Hannibal046. 
 ---
 
 If you have any question about this opinionated list, do not hesitate to contact me ro_keonwoo@korea.ac.kr.
