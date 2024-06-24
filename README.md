@@ -139,8 +139,9 @@ This is an active repository and your contributions are always welcome!
 
 I will keep some pull requests open if I'm not sure if they are awesome for LLM, you could vote for them by adding 👍 to them.
 
+The template of this repo is based on the [Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM) from @Hannibal046. 
 ---
 
-If you have any question about this opinionated list, do not hesitate to contact me chengxin1998@stu.pku.edu.cn.
+If you have any question about this opinionated list, do not hesitate to contact me ro_keonwoo@korea.ac.kr.
 
 [^1]: This is not legal advice. Please contact the original authors of the models for more information.
