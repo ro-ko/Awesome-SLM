@@ -67,6 +67,8 @@ Awesome-SLM: a curated list of Small Language Model
 ## Other Papers
 If you're interested in the field of SLM, you may find the above list of milestone papers helpful to explore its history and state-of-the-art. However, each direction of SLM offers a unique set of insights and contributions, which are essential to understanding the field as a whole. For a detailed list of papers in various subfields, please refer to the following link:
 
+|  Date  |       keywords       |    Institute    | Paper                                                                                                                                                                               | Publication |
+| :-----: | :------------------: | :--------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------: |
 |2024-02| Ensemble SLMs | Nanyang Technological University |[Purifying Large Language Models by Ensembling a Small Language Model](https://arxiv.org/pdf/2402.14845)|<br>![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F8287fbf2c520f7604aae19a590ea9494d356aae7%3Ffields%3DcitationCount&query=%24.citationCount&label=citation)|
 |2024-01| Vary-toy 1.8B | MEGVII Technology |[Small Language Model Meets with Reinforced Vision Vocabulary](https://arxiv.org/pdf/2401.12503.pdf)|<br>![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F41f12456780aecd204a210ce04b1a92d022b8c4c%3Ffields%3DcitationCount&query=%24.citationCount&label=citation)|
 
